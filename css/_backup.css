@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: white;
+    
+}
+
+
+
+.header {
+    background-color: aquamarine;
+    margin: 0 auto; 
+    padding: 10px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    }
+
+    .nav-1 {
+        display: flex;
+        
+    }
+
+    .nav-2 {
+        margin-left: 30px;
+    }
+
+    .nav-3 {
+        margin-left: 140px;
+        margin-top: 50px;
+        font-family: 'Open Sans', sans-serif;
+    }
+/* 
+    .logo {
+        width: 500px;
+        display: flex;
+        align-items: flex-start;
+        margin-left: 60px;
+        
+    }
+
+    .img-1 {
+        width: 85px;
+        height: auto;
+    }
+
+    
+    
+    
+    .menu {
+        width: 500px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+             
+    }
+
+
+    .menu li a {
+        text-decoration: none;
+        color: black;
+        text-decoration-color: black;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+    } */
+
+    .credenciales {
+        width: 700px;
+        margin-top: 0 auto;
+        margin-left: 30px;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        
+    }
+
+
+    .credenciales li a {
+        text-decoration: none;
+        color: black;
+        background-color: blanchedalmond;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: bolder;
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+    
+    .aboutus {
+        display: flex;
+        flex-direction: row;
+        margin-top: 150px ;
+        
+        
+    }
+
+
+    .title-1 {
+        color: mediumblue;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 45px;
+        margin-left: 55px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+  
+    .paragraph-1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        word-spacing: 1px;
+        letter-spacing: 1.5px;
+        font-weight: 10px;
+        font-weight: lighter;
+        color: rgb(10, 10, 10);
+        margin-left: 200px;
+        margin-top: 20px;
+        margin-right: 200px;
+        display: flex;
+        justify-content: center;
+        text-align: justify;        
+    }
+
+    .section-1 {
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+        
+        
+    }
+
+    .title-2 {
+        color: mediumblue;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 35px;
+        margin-left: 55px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    .hotel-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 70px;
+    }
+
+    
+    .paragraph-2 {
+        
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        word-spacing: 1px;
+        letter-spacing: 1.5px;
+        font-weight: 10px;
+        font-weight: lighter;
+        color: rgb(10, 10, 10);
+        margin-left: 200px;
+        margin-top: 100px;
+        margin-right: 100px;
+        display: flex;
+        justify-content: center;
+        
+        
+
+    }
+
+
+    .section-2 {
+        margin-top: 30px;
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+
+    .title-3 {
+        color: mediumblue;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 35px;
+        margin-left: 55px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .emprendimiento-container {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 70px;
+
+    }
+
+ 
+    .paragraph-3 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        word-spacing: 1px;
+        letter-spacing: 1.5px;
+        font-weight: 10px;
+        font-weight: lighter;
+        color: rgb(10, 10, 10);
+        margin-left: 100px;
+        margin-top: 100px;
+        margin-right: 200px;
+        display: flex;
+        text-align: inherit;
+        
+        
+    }
+
+    .section-3 {
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .title-4 {
+        color: mediumblue;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 35px;
+        margin-left: 55px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .empleo-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 70px;
+    }
+    
+  
+    
+    .paragraph-4 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        word-spacing: 1px;
+        letter-spacing: 1.5px;
+        font-weight: 10px;
+        font-weight: lighter;
+        color: rgb(10, 10, 10);
+        margin-left: 200px;
+        margin-top: 70px;
+        margin-right: 100px;
+        display: flex;
+        
+        
+        
+        
+    }
+
+
+    .section-4 {
+        background-color: rgb(61, 160, 160);
+        margin-top: 30px; 
+        padding: 50px;
+               
+    }
+
+    .div-container {
+        display: flex;
+        justify-content: space-around;
+          
+    }
+
+    .mundo-img {
+        margin-left: 20px;
+    }
+   
+    .ubicacion-item {
+        margin-left: 35px;
+        margin-top: 5px;
+    }
+
+    .title-5, .title-6, .title-7 {
+        color: rgb(12, 12, 14);
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 25px;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .paragraph-5 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        word-spacing: 1px;
+        letter-spacing: 1.5px;
+        font-weight: 10px;
+        font-weight: lighter;
+        color: rgb(10, 10, 10);
+        margin-top: 10px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: start;
+        text-align: justify;
+    }
+
+    
+    .valija-img {
+        margin-left: auto;
+    }
+
+    .trabajo-item {
+        margin-left: auto;
+    }
+
+    .paragraph-6 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        word-spacing: 1px;
+        letter-spacing: 1.5px;
+        font-weight: 10px;
+        font-weight: lighter;
+        color: rgb(10, 10, 10);
+        margin-top: 10px;
+        margin-right: auto;
+        display: flex;
+        justify-content: start;
+        text-align: justify;
+
+    }
+
+    .estrella-img {
+        margin-left: 10px;
+    }
+
+    .estrella-item {
+        margin-left: 25px;
+    }
+
+    .paragraph-7 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        word-spacing: 1px;
+        letter-spacing: 1.5px;
+        font-weight: 10px;
+        font-weight: lighter;
+        color: rgb(10, 10, 10);
+        margin-top: 10px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: start;
+        text-align: justify;
+    }
+
+   
+
+    .section-5 {
+        margin-top: 100px;
+    
+    }
+
+    .experiencias-container {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .img-11, .img-12, .img-13 {
+        border-radius: 50%;
+    }
+
+    .img-11 {
+        margin-left: 30px;
+    }
+
+    .img-12 {
+        margin-right: 50px;
+    }
+
+    .img-13 {
+        margin-right: 20px;
+    }
+    
+
+    .title-8, .title-9, .title-10 {
+        color: mediumblue;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 35px;
+        margin-right: 55px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .paragraph-8, .paragraph-9, .paragraph-10 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        word-spacing: 1px;
+        letter-spacing: 1.5px;
+        font-weight: 10px;
+        font-style: italic;
+        color: rgb(10, 10, 10);
+        margin: 20px 40px 150px 40px;
+        display: flex;
+        justify-content: start;
+        text-align: justify;
+    }
+    
+
+  .footer-1 {
+    background-color: aquamarine;
+    
+
+      
+  }
+
+  .title-11 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    margin-right: 55px;
+    padding: 30px;
+    text-align: center;
+    
+  }
+  
+  .social {
+    text-align: center;
+      
+  }
+  .logos {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+      
+  }
+
+
+  .logos li a {
+      text-decoration: none;
+      
+  }
+
+
+  .section-1:hover .img-2 {
+      transform: scale(1.2);
+      transition: all 1.2s;
+      
+  }
+
+  .section-2:hover .img-3 {
+    transform: scale(1.2);
+    transition: all 1.2s;
+    
+}
+
+.section-3:hover .img-4 {
+    transform: scale(1.2);
+    transition: all 1.2s;
+    
+}
+
+.hoteles-1 {
+    margin-top: 11rem!important;
+}
+
+
+.emprendimientos-1 {
+    margin-top: 11rem!important;
+}
+
