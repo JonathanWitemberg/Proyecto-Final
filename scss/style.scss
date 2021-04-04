@@ -211,10 +211,11 @@
         margin: 50px 0px;
         padding: 50px;
     }
-    // .div-container {
-    //     display: flex;
-    //     justify-content: space-around;
-    // }
+
+    .iconos-container {
+        margin-left: 100px;
+    }
+    
     .mundo-img {
         margin-left: 50px;
     }
@@ -243,9 +244,8 @@
         font-family: 'Yanone Kaffeesatz', sans-serif;
         font-size: 25px;
         font-weight: bold;
-        display: flex;
         margin-top: 10px;
-        margin-left: 100px;
+        
     }
     .paragraph-5 {
         font-family: 'Open Sans', sans-serif;
@@ -281,7 +281,7 @@
     }
 
     .estrella-item {
-        margin-left: auto;
+        margin-left: 100px;
     }
     
     .paragraph-7 {
@@ -293,6 +293,7 @@
         font-weight: lighter;
         color: rgb(10, 10, 10);
         margin-top: 10px;
+        
        
     }
     .section-5 {
@@ -380,6 +381,7 @@
     }
     .title-11 {
         font-family: 'Yanone Kaffeesatz', sans-serif;
+        color: white;
         font-size: 25px;
         margin-right: 55px;
         padding: 30px;
@@ -457,6 +459,10 @@
             justify-content: center;
         }
 
+    }
+
+    .navbar-color {
+        background-color: white;
     }
 
    
