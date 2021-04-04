@@ -300,10 +300,15 @@
         margin-top: 100px;
         margin-bottom: 50px;
     }
-    .experiencias-container {
-        display: flex;
-        flex-direction: row;
+    // .experiencias-container {
+    //     display: flex;
+    //     flex-direction: row;
+    // }
+
+    .exp-2 {
+        margin-left: 80px;
     }
+
     .img-11 {
         border-radius: 50%;
         
@@ -314,14 +319,14 @@
     }
     .img-13 {
         border-radius: 50%;
-        margin-left: 100px;
+        margin-left: 80px;
         
     }
     .title-8 {
         color: mediumblue;
         font-family: 'Yanone Kaffeesatz', sans-serif;
         font-size: 35px;
-        margin-right: 130px;
+        margin-right: 70px;
         padding: 10px;
         display: flex;
         justify-content: center;
@@ -331,7 +336,6 @@
         font-family: 'Yanone Kaffeesatz', sans-serif;
         font-size: 35px;
         margin-right: 55px;
-        margin-left: 30px;
         padding: 10px;
         display: flex;
         justify-content: center;
@@ -378,6 +382,7 @@
     }
     .footer-1 {
         background-color: black;
+        padding: 10px;
     }
     .title-11 {
         font-family: 'Yanone Kaffeesatz', sans-serif;
