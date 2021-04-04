@@ -45,7 +45,7 @@
         background-color: white;
     }
     .header {
-        background-color: aquamarine;
+        background-color: black;
         margin: 0 auto;
         padding: 10px;
         display: flex;
@@ -376,7 +376,7 @@
         
     }
     .footer-1 {
-        background-color: aquamarine;
+        background-color: black;
     }
     .title-11 {
         font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -411,17 +411,17 @@
     }
 
     .menu-2 {
+        
         .credenciales-2 {
-            border-radius: 30%;
-           
-           
-           
-           
             a {
                 font-family: 'Open Sans', sans-serif !important;
                 margin-bottom: 50px;
                 margin-left: 80px;
-                
+                border-radius: 50%;
+                // background-color: white;
+                color: white!important;
+                font-weight: bold;
+                text-decoration: underline;
 
             }
         }
@@ -434,6 +434,7 @@
                 font-family: 'Open Sans', sans-serif !important ;
                 margin-top: 20px;
                 margin-left: 50px;
+                color: white!important;
             }
         }
     }

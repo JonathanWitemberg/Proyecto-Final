@@ -45,7 +45,7 @@ body {
 }
 
 .header {
-  background-color: aquamarine;
+  background-color: black;
   margin: 0 auto;
   padding: 10px;
   display: flex;
@@ -360,7 +360,7 @@ body {
 }
 
 .footer-1 {
-  background-color: aquamarine;
+  background-color: black;
 }
 
 .title-11 {
@@ -401,13 +401,17 @@ body {
   font-family: "Open Sans", sans-serif !important;
   margin-bottom: 50px;
   margin-left: 80px;
-  background-color: burlywood;
+  border-radius: 50%;
+  color: white !important;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .menu-1 .credenciales-1 a {
   font-family: "Open Sans", sans-serif !important;
   margin-top: 20px;
   margin-left: 50px;
+  color: white !important;
 }
 
 .texto-1, .texto-2, .texto-3 {
