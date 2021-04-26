@@ -631,6 +631,12 @@ body {
   }
 }
 .inicia {
+  margin-top: 200px !important;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.registro {
   margin-top: 200px;
 }
 

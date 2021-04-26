@@ -4,29 +4,186 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Registro</title>
+    <!--SEO-->
+    <meta name="description" content="Blog para argentinos en el exterior, con el fin de que puedan compartir sus proyectos y asi poder darse a conocer, y crecer fuera del país">  <!--Descripcion del sitio-->
+    <meta name="keywords" content="Blog,Argentina,Argentinos,Mundo,Hoteles,Trabajo,Emprendimientos,Ideas."> <!--Palabras claves para definir lo que exponemos en la pagina-->
+    <!--Open Graph--> <!--Facilita la integración entre nuestro sitio web y las redes sociales-->
+    <meta property="og:type" content="Blog"> <!--Describe el tipo de pagina que compartimos-->
+    <meta property="og:title" content="Mundo Argentino"> <!--Titulo que aparece al compartir por redes-->
+    <meta property="og:description" content=""> <!--Descripcion del contenido-->
+    <meta property="og:image" content=""> <!--Imagen al compartir-->
+    <meta property="og:site_name" content=""> <!--Nombre del sitio-->
+    <meta property="og:author" content="Jonathan Witemberg"> <!--Autor-->
+    <!--Bootstrap--> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--CSS--> 
+     <link rel="stylesheet" href="css/style.css">
+    <!--Yanone Kaffeesatz-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
+    <!--Caveat-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <!--Amatic SC-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <!--Nunito-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <!--Open Sans-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="Iconos para pagina/Logo 2.png" type="image/x-icon">
+
+    <title>Registrate</title>
 </head>
 
 
 <body>
     
-    <header>
-        <img src="" alt=""> <!--LOGO DE LA PAGINA-->
-      
-      
-       <nav>
-           <ul>
-               <li><a href="Publica.html" target="_blank">Publicá</a></li>
-               <li><a href="Registro.html" target="_blank">Registrate</a></li>
-               <li><a href="inicia sesion.html" target="_blank">Inicia Sesión</a></li> 
-               <li><a href="#Hoteleria">Hotelería</a></li>
-               <li><a href="#Emprendimientos">Emprendimientos</a></li>
-               <li><a href="#Empleos">Empleos</a></li>
-               
-           </ul>
-       </nav>
-   </header> 
+    <header class="header">
+    
+        <nav class="navbar navbar-expand-lg navbar-light nav-1">
+            <div class="container-fluid nav-2">
+              <a class="navbar-brand" href="Index.html"> <img src="Iconos para pagina/Logo 2.png" alt="Logo"></a>
+              <button class="navbar-toggler navbar-color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse nav-3 menu-1" id="navbarNavAltMarkup">
+                <div class="navbar-nav d-flex justify center credenciales-1">
+                  <a class="nav-link active" href="#hoteleria">Hoteleria</a>
+                  <a class="nav-link active" href="#emprendimientos">Emprendimientos</a>
+                  <a class="nav-link active" href="#empleos">Empleos</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    
+          <nav class="navbar navbar-expand-lg navbar-light nav-1">
+            <div class="container-fluid nav-2">
+              <div class="collapse navbar-collapse nav-3 menu-2" id="navbarNavAltMarkup">
+                <div class="navbar-nav d-flex justify end credenciales-2">
+                  <a class="nav-link active" href="publica.html" target="_blank">Publicá</a>
+                  <a class="nav-link active" href="registro.html" target="_blank">Registrate</a>
+                  <a class="nav-link active" href="inicia sesion.html" target="_blank">Inicia Sesión</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    
+    
+         
+    
+    
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="registro">
+                <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <label for="validationCustom01">First name</label>
+                        <input type="text" class="form-control" id="validationCustom01" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="validationCustom02">Last name</label>
+                        <input type="text" class="form-control" id="validationCustom02" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                          <label for="validationCustom01">Email Address</label>
+                          <input type="text" class="form-control" id="validationCustom01" required>
+                          <div class="valid-feedback">
+                            Looks good!
+                          </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                          <label for="validationCustom02">New Password</label>
+                          <input type="text" class="form-control" id="validationCustom02" required>
+                          <div class="valid-feedback">
+                            Looks good!
+                          </div>
+                        </div>
+                      </div>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <label for="validationCustom03">City</label>
+                        <input type="text" class="form-control" id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid city.
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationCustom04">Country</label>
+                        <select class="custom-select" id="validationCustom04" required>
+                          <option selected disabled value="">Choose...</option>
+                          <option>Argentina</option>
+                          <option>United States</option>
+                          <option>Brazil</option>
+                          <option>Spain</option>
+                          <option>England</option>
+                          <option>Germany</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          Please select a valid state.
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationCustom05">Zip</label>
+                        <input type="text" class="form-control" id="validationCustom05" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid zip.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                          Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Register</button>
+                  </form>
+                  
+                  <script>
+                  // Example starter JavaScript for disabling form submissions if there are invalid fields
+                  (function() {
+                    'use strict';
+                    window.addEventListener('load', function() {
+                      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                      var forms = document.getElementsByClassName('needs-validation');
+                      // Loop over them and prevent submission
+                      var validation = Array.prototype.filter.call(forms, function(form) {
+                        form.addEventListener('submit', function(event) {
+                          if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                          }
+                          form.classList.add('was-validated');
+                        }, false);
+                      });
+                    }, false);
+                  })();
+                  </script>
+            </div>
+        </div>
+    </main>
 
 
 
