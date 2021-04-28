@@ -632,12 +632,36 @@ body {
 }
 .inicia {
   margin-top: 200px !important;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 150px;
 }
 
 .registro {
   margin-top: 200px;
+  margin-left: 150px;
+}
+
+.nombre-pag {
+  color: dodgerblue;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 50px;
+}
+
+.title-inicia {
+  margin-top: 280px;
+  margin-left: 100px;
+}
+
+.img-inicia {
+  margin-left: 70px;
+}
+
+.title-registro {
+  margin-top: 300px;
+  margin-left: 100px;
+}
+
+.img-registro {
+  margin-left: 70px;
 }
 
 /*# sourceMappingURL=style.css.map */
