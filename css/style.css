@@ -637,7 +637,6 @@ body {
 
 .registro {
   margin-top: 200px;
-  margin-left: 150px;
 }
 
 .nombre-pag {
@@ -656,7 +655,7 @@ body {
 }
 
 .title-registro {
-  margin-top: 300px;
+  margin-top: 280px;
   margin-left: 10px;
 }
 
@@ -664,9 +663,8 @@ body {
   margin-left: 70px;
 }
 
-.form-registro {
-  border: 100px, solid, black !important;
-  background-color: yellow;
+.section-7 {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
