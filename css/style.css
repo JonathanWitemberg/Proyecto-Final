@@ -657,11 +657,16 @@ body {
 
 .title-registro {
   margin-top: 300px;
-  margin-left: 100px;
+  margin-left: 10px;
 }
 
 .img-registro {
   margin-left: 70px;
+}
+
+.form-registro {
+  border: 100px, solid, black !important;
+  background-color: yellow;
 }
 
 /*# sourceMappingURL=style.css.map */
