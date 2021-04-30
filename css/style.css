@@ -120,6 +120,7 @@ body {
 
 .section-2 {
   margin-top: 40px;
+  width: 100%;
 }
 .section-2:hover .img-3 {
   transform: scale(1.2);
@@ -137,19 +138,13 @@ body {
   justify-content: center;
 }
 
-.emprendimiento-container {
-  display: flex;
-  flex-direction: row-reverse;
-  margin-top: 80px;
-}
-
 .paragraph-3 {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   word-spacing: 1px;
   font-weight: 10px;
   color: #0a0a0a;
-  margin: 100px 60px;
+  margin: 80px 20px;
 }
 
 .section-3 {
@@ -450,189 +445,6 @@ body {
   background-color: white;
 }
 
-@media only screen and (min-widht: 401px) and (max-widht: 960px) {
-  .about-container {
-    width: 100%;
-  }
-
-  .about-item {
-    width: 100%;
-  }
-
-  .hot-container {
-    width: 100%;
-  }
-
-  .hot-item {
-    width: 100%;
-  }
-
-  .hot-parrafo {
-    width: 100%;
-  }
-
-  .emp-container {
-    width: 100%;
-  }
-
-  .emp-item {
-    width: 100%;
-  }
-
-  .emp-parrafo {
-    width: 100%;
-  }
-
-  .job-container {
-    width: 100%;
-  }
-
-  .job-item {
-    width: 100%;
-  }
-
-  .job-parrafo {
-    width: 100%;
-  }
-
-  .iconos-container {
-    width: 100%;
-  }
-
-  .footer-title {
-    width: 100%;
-  }
-
-  .footer-logos {
-    width: 100%;
-  }
-
-  .footer-1 {
-    width: 100%;
-  }
-}
-@media only screen and (min-widht: 961px) {
-  .about-container {
-    width: 100%;
-  }
-
-  .about-item {
-    width: 100%;
-  }
-
-  .hot-container {
-    width: 100%;
-  }
-
-  .hot-item {
-    width: 100%;
-  }
-
-  .hot-parrafo {
-    width: 100%;
-  }
-
-  .emp-container {
-    width: 100%;
-  }
-
-  .emp-item {
-    width: 100%;
-  }
-
-  .emp-parrafo {
-    width: 100%;
-  }
-
-  .job-container {
-    width: 100%;
-  }
-
-  .job-item {
-    width: 100%;
-  }
-
-  .job-parrafo {
-    width: 100%;
-  }
-
-  .iconos-container {
-    width: 100%;
-  }
-
-  .footer-title {
-    width: 100%;
-  }
-
-  .footer-logos {
-    width: 100%;
-  }
-
-  .footer-1 {
-    width: 100%;
-  }
-}
-@media only screen and (max-widht: 400px) {
-  .about-container {
-    width: 100%;
-  }
-
-  .about-item {
-    width: 100%;
-  }
-
-  .hot-container {
-    width: 100%;
-  }
-
-  .hot-item {
-    width: 100%;
-  }
-
-  .hot-parrafo {
-    width: 100%;
-  }
-
-  .emp-container {
-    width: 100%;
-  }
-
-  .emp-item {
-    width: 100%;
-  }
-
-  .emp-parrafo {
-    width: 100%;
-  }
-
-  .job-container {
-    width: 100%;
-  }
-
-  .job-item {
-    width: 100%;
-  }
-
-  .job-parrafo {
-    width: 100%;
-  }
-
-  .iconos-container {
-    width: 100%;
-  }
-
-  .footer-title {
-    width: 100%;
-  }
-
-  .footer-logos {
-    width: 100%;
-  }
-
-  .footer-1 {
-    width: 100%;
-  }
-}
 .inicia {
   margin-top: 200px !important;
   margin-left: 150px;
